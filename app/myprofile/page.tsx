@@ -25,7 +25,7 @@ const Profile = () => {
   return (
     <div className="w-full min-h-screen font-sans">
       <div className="flex ">
-        <div className="space-y-6 pt-5 pl-5 w-2/3">
+        <div className="space-y-6 pt-5 pl-24 w-2/3">
           <div className="space-y-2">
             <div className="flex items-center space-x-4">
               <div className="flex items-center space-x-2">
@@ -151,7 +151,8 @@ const Profile = () => {
       </div>
 
       <div className="w-full px-6 mb-20">
-        <h2 className="text-2xl font-bold mt-8 mb-4">Research Projects</h2>
+        <div className="flex justify-center mt-24"><h2 className="text-2xl font-bold mt-8 mb-4">Research Projects</h2></div>
+
         <Link href={"/addresearch"}>
           <div className="flex justify-center items-center py-4">
             <button className="font-semibold text-lg px-5 py-2 rounded-xl text-white bg-black">
