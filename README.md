@@ -1,6 +1,8 @@
 ![med c](https://github.com/HEMANTH123SR/medC/assets/116257590/dba5a9c2-f88e-4d69-8c49-3d4e3615c564)
 #  Discover, Collaborate & Heal
 
+https://medc.vercel.app/
+
 "*med C* is a secure, platform that fosters collaboration among healthcare professionals and researchers worldwide. It enables seamless sharing of data, protocols, and insights, empowering users to accelerate progress in medical research and healthcare innovation. With robust data security, standardized formats, and powerful analytics tools, *med C* streamlines the research process, promotes knowledge exchange, and drives breakthrough discoveries for improved patient outcomes."
 
 This description highlights the following key aspects of the platform:
