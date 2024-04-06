@@ -17,7 +17,7 @@ const Profile = () => {
   const [reseaches, setResearches] = useState<ResearchType[]>();
   useEffect(() => {
     (async () => {
-      const res = await fetch('http://localhost:3000/api/research');
+      const res = await fetch(`${process.env.NEXT_PUBLIC_PRODUCTION}/api/research`);
       const data = await res.json();
       setResearches(data)
     })()
