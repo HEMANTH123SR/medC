@@ -20,7 +20,7 @@ const ResearchDescription = ({ params }: { params: { id: string } }) => {
 
     useEffect(() => {
         (async () => {
-            const res = await fetch(`http://localhost:3000/api/research/${params.id}`);
+            const res = await fetch(`https://medc.vercel.app/api/research/${params.id}`);
             const data = await res.json();
             setResearches(data)
         })()
