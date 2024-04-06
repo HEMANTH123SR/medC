@@ -29,7 +29,7 @@ const SearchPage = () => {
             if (search.trim() === "") {
                 return;
             }
-            const res = await fetch(`http://localhost:3000/api/search?q=${search}`);
+            const res = await fetch(`${process.env.NEXT_PUBLIC_PRODUCTION}/api/search?q=${search}`);
             const data = await res.json();
             setResearch(data)
         })();
